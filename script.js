@@ -16,6 +16,7 @@ function generatePassword() {
     return;
   }
 
+  //Establishes the variable to store the password criterias
   var pwCriteria = "";
 
   //Series of prompts to ask which character types the user would like to use in their password.
@@ -53,8 +54,15 @@ function generatePassword() {
   //stores generated password
   var password = "";
 
-  
+  //For loop that loops through the length selected and randomly uses the choices from the pwCriteria selection prompts.
+  for (var i = 0; i < pwLength; i++) {    //If the password is still less than the length selected, continues running generator.
+    var randomize = Math.floor(Math.random() * pwCriteria.length);  //Uses math random to randomly select a character from the criteria that the user selected.
+    var characters = pwCriteria[randomize];
+    password += characters;
+  }
 
+  //Presents the generated password
+  return password;
 }
 
 // Get references to the #generate element

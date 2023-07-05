@@ -9,7 +9,7 @@ This project is my first real Javascript project.  It is a password generator th
 
 ## Installation
 
-Run the index.html file in a browser window or go to the github pages link here:  <a href="https://max24p7.github.io/my-dev-portfolio/">https://max24p7.github.io/my-dev-portfolio/</a>
+Run the index.html file in a browser window or go to the github pages link here:  <a href="https://max24p7.github.io/password-generator-random/">https://max24p7.github.io/password-generator-random/</a>
 
 ## Usage
 

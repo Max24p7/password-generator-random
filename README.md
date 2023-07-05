@@ -13,11 +13,11 @@ Run the index.html file in a browser window or go to the github pages link here:
 
 ## Usage
 
-[Screenshot of page](assets/screenshot.PNG/)
+![Screenshot of page](password-screenshot.png)
 
 
 ## Credits
 
 https://w3schools.com
 
-https://codepen.io/silvio-r/pen/NWaKxvp
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
